@@ -5,19 +5,19 @@ export default function About() {
     color: "white",
     backgroundColor: "black",
   });
-  const toggleStyle = () => {
-    if (myStyle.color == "white") {
-      setMyStyle({
-        color: "black",
-        backgroundColor: "white",
-      });
-    } else {
-      setMyStyle({
-        color: "white",
-        backgroundColor: "black",
-      });
-    }
-  };
+  // const toggleStyle = () => {
+  //   if (myStyle.color == "white") {
+  //     setMyStyle({
+  //       color: "black",
+  //       backgroundColor: "white",
+  //     });
+  //   } else {
+  //     setMyStyle({
+  //       color: "white",
+  //       backgroundColor: "black",
+  //     });
+  //   }
+  // };
 
   return (
     <div>
